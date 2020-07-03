@@ -8,6 +8,7 @@ TagManager:
   - BulletSpawn
   - ForceField
   - line
+  - gun
   layers:
   - Default
   - TransparentFX
