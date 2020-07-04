@@ -179,9 +179,11 @@ GameObject:
   - component: {fileID: 4425827433273912670}
   - component: {fileID: 5233082622914098852}
   - component: {fileID: 3521128802676296870}
+  - component: {fileID: 1968509911}
+  - component: {fileID: 1968509910}
   m_Layer: 0
   m_Name: machinegun1
-  m_TagString: Untagged
+  m_TagString: gun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,6 +262,33 @@ MonoBehaviour:
   damage: 10
   fireRate: 10
   impactForce: 3
+--- !u!114 &1968509911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425827433281298074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16478e928a1394f45b90573c850bcf93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
+--- !u!136 &1968509910
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425827433281298074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.5753624
+  m_Height: 8.019289
+  m_Direction: 1
+  m_Center: {x: 0.098183945, y: 2.2216752, z: 0.5159286}
 --- !u!1 &4425827433281298076
 GameObject:
   m_ObjectHideFlags: 0
